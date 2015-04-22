@@ -1,0 +1,23 @@
+<?php
+$string['pluginname'] = 'Token Link';
+$string['tokenlink'] = 'Token Link';
+$string['tokenlink:addinstance'] = 'Create and send user token';
+$string['tokenlink:myaddinstance'] = 'Add a new token link block to the My Moodle page';
+$string['blocktitle'] = 'Block title';
+$string['targeturl'] = 'Target URL';
+$string['webservicename'] = 'Webservice name';
+$string['urlimage'] = 'Image URL';
+$string['imagewidth'] = 'Image Width (pixel | %)';
+$string['imageheight'] = 'Image Height (pixel | %)';
+$string['cipherkey'] = 'Cipher key';
+$string['nameparamget'] = 'Name GET param';
+$string['tokencheck'] = 'Send "token"';
+$string['usernamecheck'] = 'Send "username"';
+$string['emailcheck'] = 'Send "email"';
+$string['targeturl_help'] = 'Url link: a ref=...';
+$string['urlimage_help'] = 'Url image: img src=...';
+$string['imagewidth_help'] = 'Image width. By default 100%';
+$string['imageheight_help'] = 'Image height. By default empty';
+$string['webservicename_help'] = 'Webservice name associated with the token';
+$string['nameparamget_help'] = 'Name GET param. By default "data". Example: url?data=...';
+$string['cipherkey_help'] = 'Cipher key (num character: 16,24,32-recomended). If is empty the params will send visibles. Example: url?username=user&token=...<br/> About MCRYPT_RIJNDAEL_128 <a href="http://php.net/manual/es/function.mcrypt-encrypt.php" target="_blank">here</a>';

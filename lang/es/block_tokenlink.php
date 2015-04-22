@@ -1,0 +1,23 @@
+<?php
+$string['pluginname'] = 'Token Link';
+$string['tokenlink'] = 'Token Link';
+$string['tokenlink:addinstance'] = 'Crear y enviar token de usuario';
+$string['tokenlink:myaddinstance'] = 'Añadir un nuevo bloque tokenkin a mi Página de Moodle';
+$string['targeturl'] = 'URL destino';
+$string['webservicename'] = 'Nombre del webservice';
+$string['urlimage'] = 'URL de la imagen';
+$string['imagewidth'] = 'Ancho imagen (pixel | %)';
+$string['imageheight'] = 'Alto imagen (pixel | %)';
+$string['cipherkey'] = 'Clave de cifrado';
+$string['nameparamget'] = 'Nombre parámetro GET a enviar';
+$string['tokencheck'] = 'Enviar "token"';
+$string['usernamecheck'] = 'Enviar "username"';
+$string['emailcheck'] = 'Enviar "email"';
+$string['blocktitle'] = 'Título del bloque';
+$string['targeturl_help'] = 'Url hacia donde apunta el enlace: a ref=...';
+$string['urlimage_help'] = 'Url donde se encuentra la imagen: img src=...';
+$string['imagewidth_help'] = 'Ancho de la imagen. Para ajustar imagen al tamaño del bloque, por defecto 100%';
+$string['imageheight_help'] = 'Alto de la imagen. Para ajustar imagen al tamaño del bloque, por defecto vacio';
+$string['webservicename_help'] = 'Nombre del servicio web asociado al token';
+$string['nameparamget_help'] = 'Nombre del parametro GET. En caso de quedar vacio se usara "data". Ejemplo: url?data=...';
+$string['cipherkey_help'] = 'Clave de cifrado (num carácteres: 16,24,32-recomendado). En caso de quedar vacio se realiza una llamada sin cifrar. Ejemplo: url?username=user&token=...<br/> Más info sobre MCRYPT_RIJNDAEL_128 <a href="http://php.net/manual/es/function.mcrypt-encrypt.php" target="_blank">aquí</a>';
